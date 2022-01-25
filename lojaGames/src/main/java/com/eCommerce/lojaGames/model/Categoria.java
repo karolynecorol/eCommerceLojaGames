@@ -1,6 +1,5 @@
 package com.eCommerce.lojaGames.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -30,10 +29,10 @@ public class Categoria {
 	
 	@NotBlank
 	private String console;
-	
+
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("categoria")
-	private List<Produto> produtos = new ArrayList<>();
+	private List<Produto> produto;
 
 	public long getId() {
 		return this.id;
