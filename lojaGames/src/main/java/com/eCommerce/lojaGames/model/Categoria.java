@@ -24,8 +24,9 @@ public class Categoria {
 	@NotBlank
 	private String console;
 
+
 	public long getId() {
-		return id;
+		return this.id;
 	}
 
 	public void setId(long id) {
@@ -33,7 +34,7 @@ public class Categoria {
 	}
 
 	public String getDescricao() {
-		return descricao;
+		return this.descricao;
 	}
 
 	public void setDescricao(String descricao) {
@@ -41,7 +42,7 @@ public class Categoria {
 	}
 
 	public String getCategoria() {
-		return categoria;
+		return this.categoria;
 	}
 
 	public void setCategoria(String categoria) {
@@ -49,13 +50,12 @@ public class Categoria {
 	}
 
 	public String getConsole() {
-		return console;
+		return this.console;
 	}
 
 	public void setConsole(String console) {
 		this.console = console;
-	}	
-	
+	}
 	
 
 }
