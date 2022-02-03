@@ -26,7 +26,7 @@ import com.eCommerce.lojaGames.repository.UsuarioRepository;
 		return repository.save(usuario);
 	}
 	
-	public Optional<UsuarioLogin> Logart(Optional<UsuarioLogin> user){
+	public Optional<UsuarioLogin> Logar(Optional<UsuarioLogin> user){
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 		Optional<Usuario> usuario = repository.findByUsuario(user.get().getUsuario());
 		
