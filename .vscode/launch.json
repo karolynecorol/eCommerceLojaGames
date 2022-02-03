@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LojaGamesApplication<lojaGames>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.eCommerce.lojaGames.LojaGamesApplication",
+            "projectName": "lojaGames",
+            "args": ""
+        }
+    ]
+}
